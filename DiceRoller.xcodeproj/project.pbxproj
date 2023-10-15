@@ -11,6 +11,8 @@
 		8B0739892ADC53F50002C244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0739882ADC53F50002C244 /* ContentView.swift */; };
 		8B07398B2ADC53F70002C244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B07398A2ADC53F70002C244 /* Assets.xcassets */; };
 		8B07398E2ADC53F70002C244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B07398D2ADC53F70002C244 /* Preview Assets.xcassets */; };
+		8B0739952ADC582C0002C244 /* DiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0739942ADC582C0002C244 /* DiceController.swift */; };
+		8B0739972ADC59600002C244 /* RollHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0739962ADC59600002C244 /* RollHistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8B0739882ADC53F50002C244 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B07398A2ADC53F70002C244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B07398D2ADC53F70002C244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B0739942ADC582C0002C244 /* DiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceController.swift; sourceTree = "<group>"; };
+		8B0739962ADC59600002C244 /* RollHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		8B0739852ADC53F50002C244 /* DiceRoller */ = {
 			isa = PBXGroup;
 			children = (
+				8B0739942ADC582C0002C244 /* DiceController.swift */,
 				8B0739862ADC53F50002C244 /* DiceRollerApp.swift */,
 				8B0739882ADC53F50002C244 /* ContentView.swift */,
+				8B0739962ADC59600002C244 /* RollHistoryView.swift */,
 				8B07398A2ADC53F70002C244 /* Assets.xcassets */,
 				8B07398C2ADC53F70002C244 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				8B0739892ADC53F50002C244 /* ContentView.swift in Sources */,
 				8B0739872ADC53F50002C244 /* DiceRollerApp.swift in Sources */,
+				8B0739972ADC59600002C244 /* RollHistoryView.swift in Sources */,
+				8B0739952ADC582C0002C244 /* DiceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
